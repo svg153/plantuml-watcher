@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "echo \"No tests are defined in this repository.\"",
+    "build": "chmod +x ./build.sh && ./build.sh",
+    "launch": "docker run --rm -ti -v ${PWD}:/ws -w /ws oscarberg/plantuml-watcher"
+  }
+}
